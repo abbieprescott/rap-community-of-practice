@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -25,7 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Deploy MkDocs
-        # You may pin to the exact commit or the version.
-        # uses: mhausenblas/mkdocs-deploy-gh-pages@b1bb7cbaa91997e57d601309aac18facb028ff7d
-        uses: mhausenblas/mkdocs-deploy-gh-pages@1.25
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - run: mkdocs gh-deploy --force --clean --verbose
