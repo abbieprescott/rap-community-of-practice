@@ -35,3 +35,11 @@
   width: 85px;
   height: auto;
 }
+
+.md-typeset h1,
+h2,
+h3,
+h4,
+h5 {
+  padding-top: 1vh;
+}
