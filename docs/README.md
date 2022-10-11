@@ -2,7 +2,7 @@
 
 > **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
 
-These resources are intended for those interested in adopting [Reproducible Analytical Pipelines (RAP)][2].
+These resources are intended for those interested in adopting [Reproducible Analytical Pipelines (RAP)][1].
 
 RAP is becoming the standard for creating analytical outputs in government; combining a number of ways of working that help to improve the reliability, transparency, and speed of statistics publications. Learn more on our [Why is RAP important][1] page.
 
