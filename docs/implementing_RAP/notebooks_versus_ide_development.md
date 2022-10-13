@@ -115,7 +115,7 @@ Databricks provides a magic `%run` command, which is essentially equivalent of i
 
 When `%run` is called, **the two notebooks share the same scope**; this means that any objects (variables, functions etc.) available for reading and writing in the cells of one notebook are available for reading and writing in the cells of the other.
 
-![](../images/databricks_notebook_parent_run.PNG#smallimg) ![](../images/databricks_notebook_child_run.PNG#smallimg)
+![Explanation of the %run command being called](../images/databricks_notebook_parent_run.PNG#smallimg) ![Explanation of what the %run command is calling](../images/databricks_notebook_child_run.PNG#smallimg)
 
 _The parent (left) errors because the child (right) causes hidden changes within the scope_
 
@@ -133,13 +133,13 @@ Testing frameworks, such as unittest and pytest, do not properly support noteboo
 
 **Notebooks are inherently difficult to review and audit** through version control software like [Git](/implementing_RAP/git/intro-to-git.md). They are stored in a JSON format, which is rendered nicely on screen for the user when viewed through the tool (e.g. Jupyter / Databricks), but which makes it hard to see differences between versions.
 
-![](../images/git_diff_notebook.PNG#bigimg)
+![Image showing how Git is viewed in Notebooks](../images/git_diff_notebook.PNG#bigimg)
 
 _Git diff from a (simple!) Jupyter notebook: lots to look at!_
 
 Files in IDEs are generally simpler to version control. It is easy to compare a line in a file between two given versions since everything is designed to be read by humans. This makes it easy to understand what has changed between each version of a file and to rollback to previous versions if required.
 
-![](../images/git_diff_python_file.PNG#bigimg)
+![Image showing how Git is viewed in a Python file](../images/git_diff_python_file.PNG#bigimg)
 
 _Git diff from a Python file: much clearer!_
 

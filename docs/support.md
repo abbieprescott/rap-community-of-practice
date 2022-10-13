@@ -15,7 +15,7 @@ From there, we recommend reaching out for some in-person support.
 - Pair coding
 - Shadowing another team
 
-There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our [RAP Community of Practice Teams Page] (NHS Digital only)
+There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our NHS Digital RAP MS Teams page (internal to NHS Digital)
 
 ## Support for other colleagues
 
@@ -30,9 +30,10 @@ They also have more guidance on how to get started, and get help [here](https://
 
 There are several forums where you can introduce yourself, ask for help, or discuss different approaches:
 
-- NHS Digital RAP [MS Teams page][rap community of practice teams page] (internal to NHS Digital).
+- NHS Digital RAP MS Teams page (internal to NHS Digital).
 - [RAP Slack channel](https://nhsrcommunity.slack.com/archives/C03N1GXHEH0) from the [NHS-R](https://nhsrcommunity.com/) community.
 - [RAP collaboration Slack channel](https://govdatascience.slack.com/archives/C6H22U3H9) on the cross-government data science Slack Workspace (open to all civil servants, including NHS staff).
+- [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 
-[1]: ./introduction_to_RAP/why_is_RAP_important.md
+[1]: ./introduction_to_RAP/why_RAP_is_important.md
 [2]: ./introduction_to_RAP/levels_of_RAP.md

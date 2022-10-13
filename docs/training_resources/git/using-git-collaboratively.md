@@ -4,44 +4,59 @@
 
 In the video below, you can view the git workflow that's follows the changes made to a working branch, committing the changes and pushing them to the repository, on Gitlab. Then, a merge request is submitted to merge these changes to the master branch of the repository. The merge request is reviewed and approved, while the working branch is deleted after serving its purpose.
 
-[Video tutorial: working collaborative with git](https://vimeo.com/701594994)
+[Video tutorial: working collaboratively with git](https://vimeo.com/701594994)
 
 _Disclaimer: the above video will not load for external users._
 
-- **In GitLab**, click on "Branches" in the "Repository" menu on the left hand side.
-    - Click the "New branch" blue button.
-    - Type a suitable name for your branch.
-    - Create from master. Click "Create branch"
-- **In the command prompt**, navigate to your repository folder, using `cd <folder_name>`
-    - `git pull`
-    - `git branch -a` to see all the available branches, including the one you just created
-    - `git checkout <branch name>`
-- **In your editor** Make your code changes
-    - Save the changes
-- **In the command prompt**, `git status` to check which files you've altered
-    - `git add.` if you're happy to add all the changed files, or `git add <file_name>` if you just want one file.
-    - `git commit -m "comment on what you've changed"`
-    - `git push`
-- **In GitLab**, click on "Merge requests" in the left hand menu.
-    - Click the "New merge request" blue button.
-    - Choose the branch you want to merge and the target branch (usually master)
-    - Write a description which will be helpful to the reviewer.
-    - Assign a reviewer.
-    - Tick "Delete source branch when merge request is accepted"
-    - Click the "Create merge request" blue button.
-    - Review code changes with the reviewer, and ask the reviewer to accept the merge request.
-- **In the command prompt**, `git checkout master`, `git pull` to get the latest code.
-    - delete the branch locally, with `git branch -D <branch_name>`
-    - `git branch -a` to check that your branch has been deleted.
-    - `git checkout master`, then `git pull`, then open the code in Spyder to check that your changes are in the master.
+**In GitLab**, click on "Branches" in the "Repository" menu on the left hand side.
+
+- Click the "New branch" blue button.
+- Type a suitable name for your branch.
+- Create from master. Click "Create branch"
+
+  **In the command prompt**, navigate to your repository folder, using `cd <folder_name>`
+
+- `git pull`
+- `git branch -a` to see all the available branches, including the one you just created
+- `git checkout <branch name>`
+
+  **In your editor** Make your code changes
+
+- Save the changes
+
+  **In the command prompt**, `git status` to check which files you've altered
+
+- `git add.` if you're happy to add all the changed files, or `git add <file_name>` if you just want one file.
+- `git commit -m "comment on what you've changed"`
+- `git push`
+
+  **In GitLab**, click on "Merge requests" in the left hand menu.
+
+- Click the "New merge request" blue button.
+- Choose the branch you want to merge and the target branch (usually master)
+- Write a description which will be helpful to the reviewer.
+- Assign a reviewer.
+- Tick "Delete source branch when merge request is accepted"
+- Click the "Create merge request" blue button.
+- Review code changes with the reviewer, and ask the reviewer to accept the merge request.
+
+  **In the command prompt**, `git checkout master`, `git pull` to get the latest code.
+
+- delete the branch locally, with `git branch -D <branch_name>`
+- `git branch -a` to check that your branch has been deleted.
+- `git checkout master`, then `git pull`, then open the code in Spyder to check that your changes are in the master.
 
 ## Resolving merge conflicts
 
 How to update your branch to the latest version of the master branch, managing conflicts, merge request conflicts and review:
 
-[Video tutorial: handling and avoiding merge conflicts](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EV5kIZgXyQNOk8sXsN6LXLQBZkfuTQ9ErT_41Tj6oLltlQ?e=gBNpA0)
+!!! Info "Internal to NHS Digital"
 
-_Disclaimer: the above video will not load for external users._
+    Video tutorial: **handling and avoiding merge conflicts**
+
+    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+
+    Files > COP video tutorials > git merges and conflicts
 
 ### How to resolve merge conflicts using git - if they occur
 
@@ -153,26 +168,33 @@ This group exercise is designed for a team of four.
 
 Everyone, independently, do the following:
 
-- **In GitLab**, create a new branch from the master branch.
-- **In the command prompt**, checkout your new branch (`git branch -a`, `git checkout <branch_name>`, `git pull`)
-- Make your code changes:
+**In GitLab**, create a new branch from the master branch.
 
-    - **_Team member A_**: If result < 0, print("You'll freeze today")
-    - **_Team member B_**: If result > 100, print("You'll boil today")
-    - **_Team member C_**: Change the name of the variable "result" to "temperature"
-    - **_Team member D_**: Change the warning "you'd better wear suncream" to "you'd better wear a "t-shirt"
+**In the command prompt**, checkout your new branch (`git branch -a`, `git checkout <branch_name>`, `git pull`)
+Make your code changes:
 
-- Commit your changes (`git status`, `git add.`, `git commit -m "comment"`, `git push`)
-- **In GitLab**, **_Team member A_** create a new merge request. Assign a reviewer and accept the merge.
-    _Approving merge requests requires someone with the relevant assigned role and permissions._
+- **_Team member A_**: If result < 0, print("You'll freeze today")
+- **_Team member B_**: If result > 100, print("You'll boil today")
+- **_Team member C_**: Change the name of the variable "result" to "temperature"
+- **_Team member D_**: Change the warning "you'd better wear suncream" to "you'd better wear a "t-shirt"
 
-- **In the command prompt**, **_Team member B_** checkout the master and attempt to merge it into your branch. (`git checkout master`, `git pull`, `git checkout <branch_name>`, `git merge master`)
-- **In Spyder or VSCode** open the file where there are any conflicts and decide with **_team member B_** how the conflicts should be resolved.
-- Save your changes
-- **In the command prompt**, update your branch in the usual way. (`git status`, `git add.`, `git status`, `git commit -m "comment"`, `git status`, `git push`)
-- **In GitLab**, **_Team member B_** create a new merge request. Assign a reviewer and accept the merge.
+Commit your changes (`git status`, `git add.`, `git commit -m "comment"`, `git push`)
 
-- Repeat previous 5 steps for **_Team member C_** and **_Team member D_**
+**In GitLab**, **_Team member A_** create a new merge request. Assign a reviewer and accept the merge.
+
+_Approving merge requests requires someone with the relevant assigned role and permissions._
+
+**In the command prompt**, **_Team member B_** checkout the master and attempt to merge it into your branch. (`git checkout master`, `git pull`, `git checkout <branch_name>`, `git merge master`)
+
+**In Spyder or VSCode** open the file where there are any conflicts and decide with **_team member B_** how the conflicts should be resolved.
+
+Save your changes
+
+**In the command prompt**, update your branch in the usual way. (`git status`, `git add.`, `git status`, `git commit -m "comment"`, `git status`, `git push`)
+
+**In GitLab**, **_Team member B_** create a new merge request. Assign a reviewer and accept the merge.
+
+Repeat previous 5 steps for **_Team member C_** and **_Team member D_**
 
 ## Top tips for git
 

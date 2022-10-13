@@ -14,7 +14,7 @@ Python’s standard library "[logging](https://docs.python.org/3/library/logging
 
 Error handling provides a way for us to try to handle problems in our code in a constructive manner. Error handling works hand-in-hand with logging to improve code reliability.
 
-When our code fails for some reason, we usually see an error message on screen and the running of the code stops. That error message is known as an exception. Exceptions are objects which represent errors which contain infortmation about the kind of error and where it was caused.
+When our code fails for some reason, we usually see an error message on screen and the running of the code stops. That error message is known as an exception. Exceptions are objects which represent errors which contain information about the kind of error and where it was caused.
 
 As a developer, I can often anticipate what parts of my code are likely to have errors. For example, parsing a .csv file where we expect a certain list of column headers. By using error handling at these points in the code, I can make the code
 [fail gracefully](https://stackoverflow.com/questions/497952/how-to-make-python-gracefully-fail) while writing an informative error message to my logs.
@@ -75,9 +75,11 @@ You can find a full list of things to add in the [docs](https://docs.python.org/
 
 ### Video tutorial: Logging demo
 
-Watch [here](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EVBYaWavrUJIrR-VhMOl9lUB54xtX1bil_JrOYla9Yxn_w?e=H6WAKO).
+!!! Info "Internal to NHS Digital"
 
-_Disclaimer: the above video will not load for external users._
+    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+
+    Files > COP video tutorials > Error Handling
 
 ## Error handling in Python
 
@@ -235,7 +237,7 @@ except:
 print(my_file.contents())
 ```
 
-This is a common case where just because an exception has been caught, that doesn't mean the error has been handled. The potential error is the file not being found, the try/catch acknowledges this but then the program moves on as if nothing has happened. This means that inevitablely the final print statement will produce another error as it tries to use a `None` value. Instead the following should have been done:
+This is a common case where just because an exception has been caught, that doesn't mean the error has been handled. The potential error is the file not being found, the try/catch acknowledges this but then the program moves on as if nothing has happened. This means that inevitably the final print statement will produce another error as it tries to use a `None` value. Instead the following should have been done:
 
 ```python
 my_file = None

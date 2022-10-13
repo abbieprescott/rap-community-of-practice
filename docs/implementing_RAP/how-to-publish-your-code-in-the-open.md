@@ -14,30 +14,13 @@ The Government's [Digital Service Standard](https://www.gov.uk/service-manual/se
 
 The Government Digital Service released an **[informative video](https://www.youtube.com/watch?v=aqFFCvjXr1s)** on the benefits of coding in the open, from the start of a project.
 
-## Analytical leadership commitment to RAP code publishing
-
-Releasing code externally is part of the RAP project, the targets below are agreed by the analytical leadership. The set goal of publishing open code as a standard is October 2023.
-
-% of publications on RAP
-
-| Month  | Published code |
-| ------ | -------------- |
-| Jan-22 | 0%             |
-| Apr-22 | 5%             |
-| Jul-22 | 10%            |
-| Oct-22 | 20%            |
-| Jan-23 | 40%            |
-| Apr-23 | 60%            |
-| Jul-23 | 80%            |
-| Oct-23 | 100%           |
-
 ## How to prepare your code and repository
 
 We have designed a process that will guide teams from the start of a project through its core development, its publishing assurance phase and reaching the final step "Publish code on NHS Digital Github repository". The process in place will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
 
 Projects and publications with the aim to be published should follow the **Fit-for-publishing workflow**:
 
-![](../images/prepare_code.drawio.png)
+![Fit-for-publishing workflow diagram](../images/prepare_code.drawio.png)
 
 ### Workflow initial steps
 

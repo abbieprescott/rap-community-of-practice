@@ -1,12 +1,12 @@
-# What is RAP and why should I care?
+# Why RAP is important
 
-Scientific research has increasingly relied on code to conduct complex statisticial analyses in recent years. As code has become ubiquitous, new ways of working have emerged to ensure that scientific findings are rigorous and reproducible.
+Scientific research has increasingly relied on code to conduct complex statistical analyses in recent years. As code has become ubiquitous, new ways of working have emerged to ensure that scientific findings are rigorous and reproducible.
 
 These practices have been applied to government analytic work under the banner of **Reproducible Analytical Pipelines (RAP)**. RAPs bring together a number of good practices to help ensure all published statistics meet the highest standards of transparency and reproducibility.
 
-Over time, all analytical work in NHSD (and across government) will be expected to adopt the RAP practices. For example, RAP practices are a key element needed in order to meet the standards of quality analysis set out in the [Aqua Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. This adoption will take time and should not be considered as all-or-nothing. There are stages to RAP. Teams can take the journey one step at a time with support from this community.
+Over time, all analytical work in NHS Digital (and across government) will be expected to adopt the RAP practices. For example, RAP practices are a key element needed in order to meet the standards of quality analysis set out in the [Aqua Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. This adoption will take time and should not be considered as all-or-nothing. There are stages to RAP. Teams can take the journey one step at a time with support from this community.
 
-## The benefits of RAP in NHSD
+## The benefits of RAP at NHS Digital
 
 The NHS Digital [mission statement](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/our-strategy) says:
 

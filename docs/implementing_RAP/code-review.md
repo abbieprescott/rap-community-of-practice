@@ -1,6 +1,6 @@
 # Code review
 
-![link to image](https://imgs.xkcd.com/comics/code_quality.png)
+[![link to code quality comic image](https://imgs.xkcd.com/comics/code_quality.png)](https://imgs.xkcd.com/comics/code_quality.png)
 
 ## Why should I care?
 

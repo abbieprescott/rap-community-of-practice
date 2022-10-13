@@ -76,7 +76,13 @@ In the subsection above, an example of a messy dataset was transformed to a tidy
 **_Note:_**
 _It's perfectly valid and understandable to have your own structured way of presenting data in your published outputs, like in the table below (Occupation and Salaries). You should only format your data like this as a final output step - after producing your data in tidy format. Tidy data focuses not so much on the data formatting perspective but on the data production side, as tidy data enables the analyst to focus on analytical questions and not on data processing._
 
-**> How to transform your tidy data into a publication style output example: [From tidy to publication output](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/ERwnmjF6HlVFuGmmJI3QzpcBFMm2yPxp46vkWNeAbS5D5g?e=6dQWmM).**
+!!! Info "Internal to NHS Digital"
+
+    How to transform your tidy data into a publication style output example: **From tidy to publication output**.
+
+    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+
+    Files > COP video tutorials > From tidy data to publication
 
 ### 1. BAD: Column headers as values, not as names
 
@@ -141,7 +147,7 @@ The next example can be confusing to tidy, as variables are stored in both rows 
 | LS123           | 2018 | 3     | tempmin | 18   | -    | -       |
 | LS123           | 2018 | 4...  | tempmax | -    | -    | -       |
 
-To tidy this, a new column Date needs to be extracted from Year, Month and Day to correspond to each day of observation. Then variables minimun and maximun Temperatures for each date will be stored in two different columns:
+To tidy this, a new column Date needs to be extracted from Year, Month and Day to correspond to each day of observation. Then variables minimum and maximum Temperatures for each date will be stored in two different columns:
 
 | Weather station | Date       | tempmin | tempmax |
 | --------------- | ---------- | ------- | ------- |
@@ -208,11 +214,13 @@ There are datasets that have multiple tables and variables and observational uni
 
 In these cases, it is recommended that each table is 'tidied' up, and then combine each tidy table. To avoid any potential data duplication, adding an extra IDcolumn in each table as well as a column that records the original table/file's name will ensure that each row of data in the merged tidy table is labelled with its source table/file.
 
-## Diabetes example
+## Diabetes tidy data example
 
-### [Diabetes tidy data example](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EXUO-qsiHRNFpPhoqAeVJ8YB-q8fx9dC8YKMaviuh1jqCg?e=pWvR1T)
+!!! Info "Internal to NHS Digital"
 
-_Disclaimer: the above video will not load for external users._
+    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+
+    Files > COP video tutorials > Diabetes tidy example
 
 In this video:
 
