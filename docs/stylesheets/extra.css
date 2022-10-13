@@ -12,6 +12,10 @@
   --md-footer-fg-color--light: black;
 }
 
+p {
+  font-size: 16px;
+}
+
 .md-typeset h1 {
   color: black;
   font-size: 2em;
@@ -19,8 +23,8 @@
   margin: 0 0 1.25em;
 }
 
-.md-typeset {
-  font-size: 16px;
+.md-footer {
+  background-color: #f6f8f8 !important;
 }
 
 .md-copyright {
@@ -34,4 +38,54 @@
 .md-header__button.md-logo :is(img, svg) {
   width: 85px !important;
   height: auto !important;
+}
+
+code {
+  background: #e5f1fa !important;
+}
+
+.md-ellipsis {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #f6f8f8;
+  border-top: 3px solid #005eb8;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.footer a {
+  color: #005eb8;
+}
+
+.footer_left p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1vh;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+  font-size: 14px;
+  justify-content: right;
+  text-align: right;
+}
+
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
 }

@@ -2,7 +2,7 @@
 
 As the roll-out of RAP has progressed in NHS Digital, we have come to recognise that we are offering a service. This is quite a change in direction for a team that previously was focussed on development. We've had to quickly reframe our approach to rolling out RAP in NHS Digital to reflect this change.
 
-The RAP service aims to support teams in adopting RAP practices through setting standards, providing resusable training and code, and through directly supporting teams as they progress along the RAP journey.
+The RAP service aims to support teams in adopting RAP practices through setting standards, providing reusable training and code, and through directly supporting teams as they progress along the RAP journey.
 
 This page discusses some of the tools and considerations we have used in trying to establish this new service. It has two main sections: service design and user research.
 
@@ -24,13 +24,13 @@ To start formalising the RAP service, we ran a series of guided workshops where 
 - Who would be the users of the service?
 - What are the needs of different users?
 
-![identify user needs](/images/user-needs.JPG)
+![identify user needs](../images/user-needs.JPG)
 
 _A screenshot from the board where we tried to identify user needs. I've deliberately not made these images high-resolution enough to see the detail_
 
 Once we reached a consensus on these users and their needs, we sketched out a service map for how the RAP team could meet the needs of these users. This service map runs from the first time users hear about our service all the way through to the point that we disengage from them.
 
-![service mapping](/images/service-map.JPG)
+![service mapping](../images/service-map.JPG)
 
 _A screenshot from the board where we mapped out the service map including user experiences, pain-points, and our processes. I've deliberately not made these images high-resolution enough to see the detail_
 

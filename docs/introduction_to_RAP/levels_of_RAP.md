@@ -1,6 +1,6 @@
 # Levels of RAP
 
-These levels of RAP are the outcome of discussions on the cross-govt RAP group, as well as input from the head of the Analytics Function, the head of Data Science, the Chief Statisician, the Statistics Regulator, and NHS Digital team leads.
+These levels of RAP are the outcome of discussions on the cross-govt RAP group, as well as input from the head of the Analytics Function, the head of Data Science, the Chief Statistician, the Statistics Regulator, and NHS Digital team leads.
 
 These levels aim to offer teams a recommended maturity map for adopting RAP practices. We have seen that teams who skip the early capabilities struggle to make effective progress. These capabilities are independent and so you don't need to adopt all at once. Team leads should balance the BAU delivery, resourcing constraints, and RAP development as fits their agreed objectives.
 

@@ -32,7 +32,7 @@ Planning up front will make your RAP project much smoother. Here we provide a su
 - [ ] A template for your project.
   > Starting your project from a template will save you a lot of time and effort. We have an [example project template](https://github.com/NHSDigital/rap-package-template) which we would recommend as a starting point.
 - [ ] A reasonable amount of contingency planning
-  > NHSD members can view some documentation at the [risk log](https://nhsd-confluence.digital.nhs.uk/pages/viewpage.action?pageId=233472825).
+  > NHSD members can view some documentation at the 'Risks, Issues, Dependencies & Decisions Log' within the Data Science Skilled Team's confluence page. 
 
 ## Time Management
 

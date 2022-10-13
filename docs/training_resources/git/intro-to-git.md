@@ -161,10 +161,13 @@ Complete tasks 1 - 6: Accessing a git repository, creating a branch, adding a ne
 
 **Getting started** - tasks 1 and 2 will be relevant only when accessing a repository for the **first time**.
 
-> If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
-> If stuck on creating an access token watch [this](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EZ_3Ec0BIOpJhuvxyyeKWlcBc_5ZtCr6BRkOFanFEt7AfA?e=eTlXgK).
+- If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
 
-_Disclaimer: the above video will not load for external users._
+!!! Info "Internal to NHS Digital"
+
+    If stuck on **creating an access token**, there is a video which can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+
+    Files > COP video tutorials > Create GitLab access token
 
 ### 1. Creating your local git repository folder
 
@@ -254,15 +257,15 @@ The easiest way is to simply create the file (any type of file) in your working 
 
 1. To open VS Code from the terminal (this will save you a few extra clicks) simply type in the Command Prompt of your choice (e.g. Anaconda Prompt/Git Bash/Powershell):
 
-    ![](../../images/code_from_cmd.PNG)
+   ![](../../images/code_from_cmd.PNG)
 
 2. Once VS Code loads, you will notice the on the left hand side panel the folder structure of the cloned repository:
 
-    ![](../../images/vscode_file_structure.PNG)
+   ![](../../images/vscode_file_structure.PNG)
 
-    You can continue using the Command Prompt or you can continue with using the VS Code built in terminal. To add a new file in your repository right click in the folder structure, in this case we want to add a file in the practice folder of the repository:
+   You can continue using the Command Prompt or you can continue with using the VS Code built in terminal. To add a new file in your repository right click in the folder structure, in this case we want to add a file in the practice folder of the repository:
 
-    ![](../../images/add_file.PNG)
+   ![](../../images/add_file.PNG)
 
 3. Name the file, add a file format in the name, for example `.py` for a python file, `.md` for a markdown file etc.
 
@@ -373,7 +376,7 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 3. Type `git status` in the terminal to ensure that `ii` happened successfully and you are on the default master branch. You should see this message:
 
-    ![](../../images/image3.jpg)
+   ![](../../images/image3.jpg)
 
 4. Type `git pull` to update your local master branch with the latest version of the remote/online/GitLab master branch. This might take a few seconds.
 

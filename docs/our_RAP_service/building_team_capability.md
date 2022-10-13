@@ -12,7 +12,7 @@ This guide will detail what you need to consider before starting a RAP engagemen
 - [ ] Identify people who can provide support (the RAP team at NHS Digital) through RAP transition
 - [ ] Assess the team's existing capability
 - [ ] Plan pre-RAP training
-- [ ] Consider the appropriate [level of RAP][2] to aim for, taking skills into account
+- [ ] Consider the appropriate [level of RAP][1] to aim for, taking skills into account
 - [ ] Estimate timeline, consider pre-RAP training, and distance from BAU
 
 - [ ] Set up a project management tool (e.g. Jira, Trello etc.) for tracking work and confluence space for documenting learning, agreed decisions
@@ -101,7 +101,7 @@ We recommend before the RAP engagement (example for Python/Pandas) for analysts 
 
 ### Pair programming support
 
-During a RAP project (e.g. at the start of the [thin slice](../our_RAP_service/thin-slice-strategy.md) it can be beneficial to set up coding buddy pairs, usually an experienced programmer with an inexperienced one, to form a mentoring style collaboration and in addition to help with troubleshooting code, version control, code reviews and any programming related questions.
+During a RAP project (e.g. at the start of the [thin slice][2] it can be beneficial to set up coding buddy pairs, usually an experienced programmer with an inexperienced one, to form a mentoring style collaboration and in addition to help with troubleshooting code, version control, code reviews and any programming related questions.
 
 The level of engagement is up to the programming pairs, daily catch-ups for instance is often observed as a workable standard.
 
@@ -111,31 +111,37 @@ We found this style of engagement beneficial to teams new to RAP and programming
 
 Once the RAP project commences, the first training session to carry out is:
 
-- **the [Introduction to Git](../training_resources/git/intro-to-git.md) and [Using Git Collaboratively](../training_resources/git/using-git-collaboratively.md)**. Each training session requires a support drop in session where analysts from the project team join in case they are stuck on any exercises from the guides. A repository set up for the purposes of practising Git is used and provided for practice.
+- **the [Introduction to Git][3] and [Using Git Collaboratively][4]**. Each training session requires a support drop in session where analysts from the project team join in case they are stuck on any exercises from the guides. A repository set up for the purposes of practising Git is used and provided for practice.
 
-- **and basics of Python/Pandas.** Using the project's data, we recommend to use data from your project to create a tutorial script that produces a basic output using our [basics of Pandas guide](../training_resources/python/basic-python-data-analysis-operations.md) and go over elementary Pandas operations that will beginners with their first coding steps. This could cover joins, group bys, filtering, selecting and renaming columns etc.
+- **and basics of Python/Pandas.** Using the project's data, we recommend to use data from your project to create a tutorial script that produces a basic output using our [basics of Pandas guide][5] and go over elementary Pandas operations that will beginners with their first coding steps. This could cover joins, group bys, filtering, selecting and renaming columns etc.
 
 Other training to consider running depending on your team's requirements. We suggest to use your project to create examples for any training you follow to make training feel natural and applicable to your team:
 
-- [Python functions](../training_resources/python/python-functions.md). The thin slice refactoring stage offers a great opportunity to refactor reusable code into functions, and your team to be able to practice with writing functions. These functions can be used as example of an introduction to Python functions i.e. how to call functions, when to pass arguments, number of arguments, keyword arguments, return, pass, docstrings etc.
+- [Python functions][6]. The thin slice refactoring stage offers a great opportunity to refactor reusable code into functions, and your team to be able to practice with writing functions. These functions can be used as example of an introduction to Python functions i.e. how to call functions, when to pass arguments, number of arguments, keyword arguments, return, pass, docstrings etc.
 
-- [How to do code reviews](../implementing_RAP/code-review.md). Code reviews can be deceiving as someone who's new to code reviews understand that their work is being judged. It is recommended to hold a team code review session and review a few example scripts, using our guidelines and considerations to demonstrate how useful and invaluable code reviews can be in improving overall code quality while also developing your coding skills at the same time.
+- [How to do code reviews][7]. Code reviews can be deceiving as someone who's new to code reviews understand that their work is being judged. It is recommended to hold a team code review session and review a few example scripts, using our guidelines and considerations to demonstrate how useful and invaluable code reviews can be in improving overall code quality while also developing your coding skills at the same time.
 
-- [Project structure session, how to package your code](../training_resources/python/project-structure-and-packaging.md). A python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS Digital as well as externally.
+- [Project structure session, how to package your code][8]. A python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS Digital as well as externally.
 
 - **[PEP8](https://peps.python.org/pep-0008/) and Linting**. Linting is a tool that highlights programming errors, stylistic errors and bugs in your code. Each programming software has its own linting application, it is recommended to enable this feature as it helps avoiding this type of errors.
 
-- [Session on the thin slice concept and design](../our_RAP_service/thin-slice-strategy.md). The thin slice concept can be hard to understand sometimes for inexperienced analysts so a session covering the thin slice approach is recommended.
+- [Session on the thin slice concept and design][2]. The thin slice concept can be hard to understand sometimes for inexperienced analysts so a session covering the thin slice approach is recommended.
 
 - **Debugging code using an IDE**. Like linting, debugging using a programming software can be a feature of its own, it is recommended to help your team familiarise themselves with debugging to improve troubleshooting efficiency.
 
 ## How to measure progress
 
-We recommend using the [RAP maturity levels][2] as performance indicators to best capture a team's progress.
+We recommend using the [RAP maturity levels][1] as performance indicators to best capture a team's progress.
 
 These levels aim to offer teams a recommended maturity map for adopting RAP practices. We have seen that teams who skip the early capabilities struggle to make effective progress. These capabilities are independent and so you don't need to adopt all at once. Team leads should balance the BAU delivery, resourcing constraints, and RAP development as fits their agreed objectives.
 
 For example, if all members of the RAP project team are comfortable using version control (i.e. merge requests, merge conflicts, Git commands workflow), then using Git and GitLab can be ticked off as a KPI.
 
-[1]: ../introduction_to_RAP/why_is_RAP_important.md
-[2]: ../introduction_to_RAP/levels_of_RAP.md
+[1]: ../introduction_to_RAP/levels_of_RAP.md
+[2]: ../our_RAP_service/thin-slice-strategy.md
+[3]: ../training_resources/git/intro-to-git.md
+[4]: ../training_resources/git/using-git-collaboratively.md
+[5]: ../training_resources/python/basic-python-data-analysis-operations.md
+[6]: ../training_resources/python/python-functions.md
+[7]: ../implementing_RAP/code-review.md
+[8]: ../training_resources/python/project-structure-and-packaging.md

@@ -7,7 +7,7 @@ When you are developing a codebase (perhaps for the first time), especially a [R
 This guide includes sections on:
 
 - [What you will need to get started](#what-you-will-need-to-get-started)
-- [A typical workflow](#typical-workflow), including [how to develop code](#how-to-write-code--general-tips)
+- [A typical workflow](#typical-workflow), including [how to develop code](#tips-for-how-to-write-code)
 - [Debugging tips](#debugging)
 
 > If you run into issues with anything in this guide, one of the best places to find answers is by searching for your problem on [StackOverflow](https://stackoverflow.com/).
@@ -122,7 +122,7 @@ When you are working on an existing project, many of the above steps are no long
 
 15. Create a [pull/merge request][18] (_optional, see above_)
 
-### How to write code- general tips
+### Tips for how to write code
 
 _Intended as broad advice for people who may not be very confident in Python and are nervous about 'breaking' an existing codebase_.
 
@@ -156,7 +156,7 @@ Inspiration has been drawn from:
 - [Setup a Data Science Environment on your Computer](https://www.datacamp.com/tutorial/setup-data-science-environment)
 - [VS Code documentation](https://code.visualstudio.com/docs/)
 
-[1]: ../introduction_to_RAP/why_is_RAP_important.md
+[1]: ../introduction_to_RAP/why_RAP_is_important.md
 [2]: ../training_resources/python/python-functions.md
 [3]: ../training_resources/python/project-structure-and-packaging.md
 [4]: ./notebooks_versus_ide_development.md

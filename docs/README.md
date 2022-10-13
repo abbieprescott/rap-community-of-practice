@@ -1,12 +1,12 @@
-# RAP Community of Practice - Test 
+# RAP Community of Practice - Test
 
 > **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
 
-These resources are intended for those interested in adopting [Reproducible Analytical Pipelines (RAP)][1].
+These resources are intended for those interested in adopting [Reproducible Analytical Pipelines (RAP)](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/).
 
-RAP is becoming the standard for creating analytical outputs in government; combining a number of ways of working that help to improve the reliability, transparency, and speed of statistics publications. Learn more on our [Why is RAP important][1] page.
+RAP is becoming the standard for creating analytical outputs in government; combining a number of ways of working that help to improve the reliability, transparency, and speed of statistics publications. Learn more on our [Why RAP is important][1] page.
 
-![](images/Staff_hot_desking_in_the_HUB_01.jpeg)
+![Image of staff hot desking in the Hub at NHS Digital](images/Staff_hot_desking_in_the_HUB_01.jpeg)
 
 ## RAP in the NHS
 
@@ -18,6 +18,6 @@ We have published these resources in the spirit of openness and transparency, an
 
 Learn more about our [RAP service][3].
 
-[1]: ./introduction_to_RAP/why_is_RAP_important.md
+[1]: ./introduction_to_RAP/why_RAP_is_important.md
 [2]: ./implementing_RAP/how-to-publish-your-code-in-the-open.md
 [3]: ./our_RAP_service/README.md

@@ -3,9 +3,10 @@
 hide: toc
 ---
 
-# Logging and error handling
+# Logging and error handling in PySpark
 
-See our documentation on [logging and error handling][1] to find out more.
+!!! Info
+    See our documentation on [logging and error handling in Python][1] to find out more.
 
 Error messages in PySpark can be especially unhelpful - often returning hundreds of lines of messages for a simple error. We've found it easier to log only the start of these error messages. This snippet of code shows how:
 

@@ -12,7 +12,7 @@ First, we need the output from the old code in a CSV, to compare to the CSV whic
 
 Create a file in your tests folder called `test_compare_results.py`.
 
-In this file, we will write a set of functions which compare the old CSV to the new CSV. These comparsions are easy if we read the CSV files as Pandas Dataframes using `pd.read_csv`:
+In this file, we will write a set of functions which compare the old CSV to the new CSV. These comparisons are easy if we read the CSV files as Pandas Dataframes using `pd.read_csv`:
 
 ```Python
 import pandas as pd
@@ -30,11 +30,11 @@ Pandas Dataframes have some inbuilt attributes which we can now compare. For exa
 assert target_df.shape == gtruth_df.shape, 'Target has a different number of rows and/or columns to ground truth'
 ```
 
-The assert function runs the condition `target_df.shape == gruth_df.shape`. It does nothing if the condition is True, but raises an assertion error if the condition is False. We can decide what to write as a helpful error message, in this case: `'Target has a different number of rows and/or columns to ground truth'`.
+The assert function runs the condition `target_df.shape == gtruth_df.shape`. It does nothing if the condition is True, but raises an assertion error if the condition is False. We can decide what to write as a helpful error message, in this case: `'Target has a different number of rows and/or columns to ground truth'`.
 
 Find out more about Python assert [here](https://www.w3schools.com/python/ref_keyword_assert.asp).
 
-We can write more tests to run various comparsions of the two CSVs, e.g.:
+We can write more tests to run various comparisons of the two CSVs, e.g.:
 
 - Check that they have the same column names in the same order:
 
