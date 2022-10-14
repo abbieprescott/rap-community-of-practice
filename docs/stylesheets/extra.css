@@ -89,3 +89,8 @@ code {
     margin-left: auto;
   }
 }
+
+
+.md-nav__title {
+  background-color: #f8f8f8;
+}
