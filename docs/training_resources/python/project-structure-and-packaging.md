@@ -2,7 +2,7 @@
 
 A python package is a way to bundle your code into a single thing that can be shared and reused. If our goal is to be able to share and reuse code across NHS Digital and externally then there are many benefits to packaging code:
 
-- **Shareable**: The most important reason to use packages is that it is **the way** to share python code. Not using packages runs the risk that other people will not be able to run your code... "It works fine on my machine".
+- **Shareable**: The most important reason to use packages is that it is the way to share python code. Not using packages runs the risk that other people will not be able to run your code... "It works fine on my machine".
 - **Databricks**: It looks likely that packaging code will be the easiest way to get your code onto databricks. (NB: we are keeping a close eye on Data Refinery to answer this question)
 - **Reliability**: Packages go a long way to ensuring that other people in your team can open your code and run it without hitting issues.
 - **Organised**: Packages allow you to organise your code in logical sections. This makes it much easier to test and to maintain over time.
@@ -58,11 +58,11 @@ diabetes/
 
 ## Generic package template
 
-To help get you started, we have created a generic package structure that you can adapt for your own purposes. The repository is stored on [Github](https://github.com/NHSDigital/rap-package-template). You can fork this repo and use it as a starting point for your own package.
+To help get you started, we have created a generic package structure that you can adapt for your own purposes. The repository is stored on [GitHub](https://github.com/NHSDigital/rap-package-template). You can fork this repo and use it as a starting point for your own package.
 
-## So what now? 
+## So what now?
 
-- Make your own package either by adding the files yourself or by cloning the [generic template] that we provide.
+- Make your own package either by adding the files yourself or by cloning the [generic template](https://github.com/NHSDigital/rap-package-template) that we provide.
 - Once you have the package structure in place, you can install that package on your machine using these two commands:
 
   ```python
@@ -122,7 +122,7 @@ Some things to notice about this structure:
   - The `field_definitions.py` file contains the definitions for each of the fields (columns) derived in the process. By abstracting these definitions out of the code and making them reusable, we achieve some great benefits. First, it becomes much easier to maintain. When the specifications change next year, we only need to make the change in one location. Next, it becomes much easier to test. We write unit tests for each of these definitions and can then reuse these definitions in many places without increasing risk.
   - The `processing_steps.py` file contains the core business logic of the diabetes data. We could consider breaking this down into further steps.
 
-Note that we never store passwords or any sensitive credentials in the repo to prevent the situation where it can mistakenly committed into the git. There are several ways to deal with the secret, keys and passwords such as using Git Hooks or final cleansing process before publishing. 
+Note that we never store passwords or any sensitive credentials in the repo to prevent the situation where it can mistakenly committed into the git. There are several ways to deal with the secret, keys and passwords such as using Git Hooks or final cleansing process before publishing.
 
 ## External links
 

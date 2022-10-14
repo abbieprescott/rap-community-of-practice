@@ -256,7 +256,7 @@ There is a balance to be found in applying both logging and error handling. For 
 
 ### Catching errors in PySpark
 
-See our guide on [logging and error handling in PySpark][1]
+See our downloadable guide on [logging and error handling in PySpark][1]
 
 ## Further reading
 

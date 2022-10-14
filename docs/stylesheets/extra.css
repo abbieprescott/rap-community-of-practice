@@ -1,5 +1,6 @@
 :root > * {
   --md-primary-fg-color: #005eb8;
+  --md-default-bg-color: #f8f8f8;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: #f8f8f8;
@@ -10,10 +11,6 @@
   --md-footer-bg-color: #f8f8f8;
   --md-footer-fg-color: black;
   --md-footer-fg-color--light: black;
-}
-
-p {
-  font-size: 16px;
 }
 
 .md-typeset h1 {
@@ -88,4 +85,8 @@ code {
   .legal .legal__links {
     margin-left: auto;
   }
+}
+
+table {
+  background-color: white !important;
 }

@@ -1,6 +1,6 @@
 # Handling file paths
 
-## What is pathlib? <a name="what"></a>
+## What is pathlib?
 
 pathlib is a built-in (python-3) package for handling filesystem paths.
 
@@ -10,9 +10,9 @@ pathlib offers helpful ways to perform a variety of operations, including:
 - Traversing the filesystem (i.e. getting the parents / children of a given file / folder)
 - Composing paths based on constituent elements (e.g. by extending a root path to a folder with a subfolder / file name)
 
-See [How do I use it?](#what-is-pathlib-a-namewhata) for examples illustrating the above.
+See [How do I use it?](#how-do-i-use-it) for examples illustrating the above.
 
-## Why should I care? <a name="why"></a>
+## Why should I care?
 
 The key strengths of pathlib include:
 
@@ -24,7 +24,7 @@ The key strengths of pathlib include:
   - Listing the contents of nested folders
 - **Reusability**: pathlib is OS-agnostic, meaning code will work with both Windows and Linux filesystems
 
-## How do I use it? <a name="how"></a>
+## How do I use it?
 
 The steps below show briefly how to make use of pathlib.
 

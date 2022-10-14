@@ -376,7 +376,7 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 3. Type `git status` in the terminal to ensure that `ii` happened successfully and you are on the default master branch. You should see this message:
 
-   ![](../../images/image3.jpg)
+    ![](../../images/image3.jpg)
 
 4. Type `git pull` to update your local master branch with the latest version of the remote/online/GitLab master branch. This might take a few seconds.
 

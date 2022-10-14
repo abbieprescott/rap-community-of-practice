@@ -1,6 +1,6 @@
 # How to prepare my team for RAP
 
-(![Comic image of team chat](../images/team_chat_2x.png))(https://imgs.xkcd.com/comics/team_chat.png)
+[![Comic image of team chat](../images/team_chat_2x.png)](https://imgs.xkcd.com/comics/team_chat.png)
 
 This guide will detail what you need to consider before starting a RAP engagement.
 
