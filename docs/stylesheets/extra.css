@@ -91,6 +91,6 @@ code {
 }
 
 
-.md-nav__title {
+.md-nav__title, md-nav__link {
   background-color: #f8f8f8 !important;
 }
