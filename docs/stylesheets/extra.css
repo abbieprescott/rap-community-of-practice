@@ -13,10 +13,6 @@
   --md-footer-fg-color--light: black;
 }
 
-p {
-  font-size: 16px;
-}
-
 .md-typeset h1 {
   color: black;
   font-size: 2em;
@@ -92,5 +88,5 @@ code {
 }
 
 table {
-  background-color: white;
+  background-color: white !important;
 }

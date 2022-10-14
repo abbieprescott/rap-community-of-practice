@@ -123,7 +123,7 @@ After the `%run` there can be references to objects that are hidden in the child
 
 ### Unit testing
 
-> Please see the [unit tests](/implementing_RAP/python/unit-testing.md) guide for more information about unit testing.
+> Please see the [unit tests][3] guide for more information about unit testing.
 
 It is much easier to implement unit tests with scripts in an IDE than in notebooks. This is partly due to the [modular structure](#modularisation): code can be broken down into functions and classes contained within small, manageable files and subdirectories; each test then only interacts with the relevant part of the code which makes debugging easier.
 
@@ -131,7 +131,7 @@ Testing frameworks, such as unittest and pytest, do not properly support noteboo
 
 ### Version control
 
-**Notebooks are inherently difficult to review and audit** through version control software like [Git](/implementing_RAP/git/intro-to-git.md). They are stored in a JSON format, which is rendered nicely on screen for the user when viewed through the tool (e.g. Jupyter / Databricks), but which makes it hard to see differences between versions.
+**Notebooks are inherently difficult to review and audit** through version control software like [Git][4]. They are stored in a JSON format, which is rendered nicely on screen for the user when viewed through the tool (e.g. Jupyter / Databricks), but which makes it hard to see differences between versions.
 
 ![Image showing how Git is viewed in Notebooks](../images/git_diff_notebook.PNG#bigimg)
 
@@ -163,7 +163,7 @@ Using interactive cells in IDEs can offer a nice balance for analysts implementi
 
 ## External links
 
-- [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/core_programming.html?highlight=notebooks#notebooks)
+- [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html#think-carefully-about-whether-notebooks-are-a-suitable-way-to-organise-your-code)
 - [Importing Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Importing%20Notebooks.html)
 - [%run command in Databricks](https://docs.databricks.com/notebooks/notebooks-use.html#run-a-notebook-from-another-notebook)
 - See also this video by Joel Grus: [I don't like notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U).
@@ -172,10 +172,13 @@ Using interactive cells in IDEs can offer a nice balance for analysts implementi
 
 Hopefully, it is clear that there is no 'right' or 'wrong' choice when it comes to workflow: rather it is a question of which workflow is going to better support the needs of the project.
 
-We have created a [suggested workflow](/implementing_RAP/general_guidance/technical-workflow.md) that is not intended to be seen as the recommended or best approach, but offers a good starting point for analysts & data scientists looking to get started setting up a workflow.
+We have created a [suggested workflow][5] that is not intended to be seen as the recommended or best approach, but offers a good starting point for analysts & data scientists looking to get started setting up a workflow.
 
 [1]: ./how-to-publish-your-code-in-the-open.md
 [2]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html?highlight=notebooks#:~:text=Think%20carefully%20about%20whether%20notebooks%20are%20a%20suitable%20way%20to%20organise%20your%20code%23
+[3]: ../training_resources/python/unit-testing.md
+[4]: ../training_resources/git/intro-to-git.md
+[5]: ../implementing_RAP/technical-workflow.md
 
 <br></br>
 

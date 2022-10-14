@@ -8,7 +8,7 @@ To use Git as a team you should complete this section and the following section 
 
 ## What is version control?
 
-See our [guidance][2] on version control and [common basic commands][3].
+See our guidance on basic [version control][2].
 
 ## Setup for Git Basics exercise
 

@@ -21,10 +21,10 @@ There is also a growing community of RAP experts outside the Data Science RAP sq
 
 **If you're not in NHS Digital**, the [RAP Champions Network](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions) can offer support through:
 
-- helping you understand why and how they implemented RAP in your department and why it worked for them
-- sharing code via platforms like GitHub so that others can learn from and adapt what has been done
-- shadowing & mentoring opportunities
-- peer review
+- Helping you understand why and how they implemented RAP in your department and why it worked for them
+- Sharing code via platforms like GitHub so that others can learn from and adapt what has been done
+- Shadowing & mentoring opportunities
+- Peer review
 
 They also have more guidance on how to get started, and get help [here](https://dataingovernment.blog.gov.uk/2022/08/08/mentoring-a-successful-rap-project/).
 

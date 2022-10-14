@@ -51,7 +51,7 @@ nav:
           - About PySpark: training_resources/pyspark/README.md
           - Logging and error handling in PySpark: training_resources/pyspark/logging-and-error-handling.md
           - PySpark style guide: training_resources/pyspark/pyspark-style-guide.md
-          - PySpark tutorial: training_resources/pyspark/pyspark-tutorial.py
+          - Download our PySpark tutorial: training_resources/pyspark/pyspark-tutorial.py
       - R:
           - External resources: training_resources/R/README.md
           - Git with RStudio: training_resources/R/git_with_RStudio.md
@@ -76,7 +76,8 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - pymdownx.tasklist:
-      clickable_checkbox: true
+      # clickable_checkbox: true
+      custom_checkbox: true
   - tables
   - attr_list
   - pymdownx.emoji:

@@ -268,97 +268,74 @@ Here are some questions to help you practice writing functions.
 
 We are designing a function which returns the result of multiplying 5 by 5.
 
-1. What is the missing keyword below to define a function:
-
-```python
-... multiply():
-```
-
-2. In the code body we need to calculate the value of our calculation. Can you fill in the calculation:
-
-```python
-def multiply():
-    value = ...
-```
-
-3. Currently our function only calculates this value, but we have no way of obtaining the result, fill out the last line of the function body so if we call the function we can get the result:
-
-```python
-def multiply():
-    value = 5 * 5
-    ...
-```
-
-Our function only serves a very simply basic purpose. It would be better if our function could return the result of the multiplication of any two values.
-
-4. Fill in the gaps so our function now uses arguments:
-
-```python
-def multiply(..., ...):
-    value = a * b
-    return value
-```
-
-Our function now serves its purpose, but we may want to document it so in future other programmers can understand it.
-
-5. Add in a docstring with a single line describing the function:
-
-```python
-def multiply(a, b):
-    ...
-    value = a * b
-    return value
-```
-
-6. Expand on the docstring by describing its parameters:
-
-```python
-def multiply(a, b):
-    """
-    Multiplies two values.
-
-    ...
-    """
-    value = a * b
-    return value
-```
-
-7. Expand on the docstring by describing the return value:
-
-```python
-def multiply(a, b):
-    """
-    Multiplies two values.
-
-    Args:
-       a: first value in the calculation.
-       b: second value in the calculation
-
-    ...
-    """
-    value = a * b
-    return value
-```
-
-8. Expand on the docstring by giving an example use of calling the function:
-
-```python
-def multiply(a, b):
-    """
-    Multiplies two values.
-
-    Args:
-       a: first value in the calculation.
-       b: second value in the calculation
-
-    Returns:
-       The result of multiplying a by b
-
-    ...
-    """
-    value = a * b
-    return value
-```
+1.  What is the missing keyword below to define a function:
+    ```python
+    ... multiply():
+    ```
+2.  In the code body we need to calculate the value of our calculation. Can you fill in the calculation:
+    ```python
+    def multiply():
+        value = ...
+    ```
+3.  Currently our function only calculates this value, but we have no way of obtaining the result, fill out the last line of the function body so if we call the function we can get the result:
+    ```python
+    def multiply():
+        value = 5 * 5
+        ...
+    ```
+    Our function only serves a very simply basic purpose. It would be better if our function could return the result of the multiplication of any two values.
+4.  Fill in the gaps so our function now uses arguments:
+    ```python
+    def multiply(..., ...):
+        value = a * b
+        return value
+    ```
+    Our function now serves its purpose, but we may want to document it so in future other programmers can understand it.
+5.  Add in a docstring with a single line describing the function:
+    ```python
+    def multiply(a, b):
+        ...
+        value = a * b
+        return value
+    ```
+6.  Expand on the docstring by describing its parameters:
+    ```python
+    def multiply(a, b):
+        """
+        Multiplies two values.
+        ...
+        """
+        value = a * b
+        return value
+    ```
+7.  Expand on the docstring by describing the return value:
+    ```python
+    def multiply(a, b):
+        """
+        Multiplies two values.
+        Args:
+            a: first value in the calculation.
+            b: second value in the calculation
+        ...
+        """
+        value = a * b
+        return value
+    ```
+8.  Expand on the docstring by giving an example use of calling the function:
+    ```python
+    def multiply(a, b):
+        """
+        Multiplies two values.
+        Args:
+            a: first value in the calculation.
+            b: second value in the calculation
+        Returns:
+            The result of multiplying a by b
+        ...
+        """
+        value = a * b
+        return value
+    ```
 
 ### Challenge 2. Interest Calculator
 
@@ -376,33 +353,26 @@ def interest(n):
     return math.pow(1000 * (1 + (0.005/n)), 10)
 ```
 
-9. Adapt the function by filling in the gaps to allow the interest rate (r) to be changed:
-
-```python
-def interest(n, ...):
-    return math.pow(1000 * (1 + (.../n)), 10)
-```
-
-10. Adapt the function to allow the years (t) to be changed:
-
-```python
-def interest(n, ...):
-    return math.pow(1000 * (1 + (0.005/n)), ...)
-```
-
-11. Adapt the function to allow the initial amount of money (p) to be changed:
-
-```python
-def interest(n, ...):
-    return math.pow(... * (1 + (0.005/n)), 10)
-```
-
-12. Combine all these steps the define a function which calculates interest:
-
-```python
-def interest(n, ...):
-    return math.pow(...)
-```
+1. Adapt the function by filling in the gaps to allow the interest rate (r) to be changed:
+   ```python
+   def interest(n, ...):
+       return math.pow(1000 * (1 + (.../n)), 10)
+   ```
+2. Adapt the function to allow the years (t) to be changed:
+   ```python
+   def interest(n, ...):
+       return math.pow(1000 * (1 + (0.005/n)), ...)
+   ```
+3. Adapt the function to allow the initial amount of money (p) to be changed:
+   ```python
+   def interest(n, ...):
+       return math.pow(... * (1 + (0.005/n)), 10)
+   ```
+4. Combine all these steps the define a function which calculates interest:
+   ```python
+   def interest(n, ...):
+       return math.pow(...)
+   ```
 
 ## External links
 

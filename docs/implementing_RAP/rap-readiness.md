@@ -15,7 +15,7 @@ Here, we provide a recommended set of minimum criteria.
 - [ ] A basic grounding in programming
   > We recommend the training available here: [introduction to programming](https://www.kaggle.com/learn/intro-to-programming)
 - [ ] A basic grasp of the open-source languages which we intend to use
-  > For Python, we recommend this training: [introduction to Python](https://www.kaggle.com/learn/python) training. For SQL, [this](https://www.kaggle.com/learn/intro-to-sql) training.
+  > For Python, we recommend this training: [introduction to Python](https://www.kaggle.com/learn/python) training. For SQL, [this training](https://www.kaggle.com/learn/intro-to-sql).
 - [ ] An initial grasp of git: what it is, and what its used for.
   > We provide an [introduction to git][1].
 
@@ -32,7 +32,7 @@ Planning up front will make your RAP project much smoother. Here we provide a su
 - [ ] A template for your project.
   > Starting your project from a template will save you a lot of time and effort. We have an [example project template](https://github.com/NHSDigital/rap-package-template) which we would recommend as a starting point.
 - [ ] A reasonable amount of contingency planning
-  > NHSD members can view some documentation at the 'Risks, Issues, Dependencies & Decisions Log' within the Data Science Skilled Team's confluence page. 
+  > NHSD members can view some documentation at the 'Risks, Issues, Dependencies & Decisions Log' within the Data Science Skilled Team's confluence page.
 
 ## Time Management
 
