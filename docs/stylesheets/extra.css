@@ -31,11 +31,11 @@ p {
   color: black;
 }
 
-.md-logo {
+.md-logo-nhs {
   height: 80px;
 }
 
-.md-header__button.md-logo :is(img, svg) {
+.md-header__button.md-logo-nhs :is(img, svg) {
   width: 85px !important;
   height: auto !important;
 }

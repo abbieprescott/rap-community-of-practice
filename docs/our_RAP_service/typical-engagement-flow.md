@@ -15,7 +15,6 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 - Have a look over the [RAP Community of Practice][3] pages to get a sense of what it is all about.
 - Reach out to the [RAP team](mailto:datascience@nhs.net) for a chat
 - Together with someone from the RAP team, walk through the [levels of RAP][4] page and consider the team's scale of ambition.
-
 - If you are keen to proceed, pass the request to the RAP product owner for prioritisation and resourcing
 - Get a start date in the calendar. Think about publication timing, team capacity, etc. to choose a good time.
 
@@ -37,12 +36,12 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 - Identify training needs of the publication team through conversations
 - Dedicated training. The content is tailored to the specific team but a typical sequence might look like:
 
-  - [Concept of a thin slice and how to choose the thin slice][5]
-  - Access to off-the-shelf interactive training for self-led training
-  - [PySpark style guide][6]
-  - [Version control][7]
-  - [Writing good functions][8]
-  - [Unit tests][9]
+    - [Concept of a thin slice and how to choose the thin slice][5]
+    - Access to off-the-shelf interactive training for self-led training
+    - [PySpark style guide][6]
+    - [Version control][7]
+    - [Writing good functions][8]
+    - [Unit tests][9]
 
 - Buddy pairs work to replicate the thin slide outputs
 - Set up automated code testing once the numbers are correct
