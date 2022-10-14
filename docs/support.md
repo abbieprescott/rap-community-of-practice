@@ -1,6 +1,6 @@
 # Support
 
-If your team is embarking upon a RAP journey, you should look at our [benefits and aims of RAP][1] page and think about which [levels of RAP][2] that you want to target.
+If your team is embarking upon a RAP journey, you should look at our [benefits and aims of RAP][1] and think about which [levels of RAP][2] that you want to target.
 
 From there, we recommend reaching out for some in-person support.
 
@@ -15,7 +15,7 @@ From there, we recommend reaching out for some in-person support.
 - Pair coding
 - Shadowing another team
 
-There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our NHS Digital RAP MS Teams page (internal to NHS Digital)
+There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our NHS Digital RAP MS Teams page (internal to NHS Digital).
 
 ## Support for other colleagues
 
@@ -30,9 +30,9 @@ They also have more guidance on how to get started, and get help [here](https://
 
 There are several forums where you can introduce yourself, ask for help, or discuss different approaches:
 
-- NHS Digital RAP MS Teams page (internal to NHS Digital).
-- [RAP Slack channel](https://nhsrcommunity.slack.com/archives/C03N1GXHEH0) from the [NHS-R](https://nhsrcommunity.com/) community.
-- [RAP collaboration Slack channel](https://govdatascience.slack.com/archives/C6H22U3H9) on the cross-government data science Slack Workspace (open to all civil servants, including NHS staff).
+- NHS Digital RAP MS Teams page (internal to NHS Digital)
+- [RAP Slack channel](https://nhsrcommunity.slack.com/archives/C03N1GXHEH0) from the [NHS-R](https://nhsrcommunity.com/) community
+- [RAP collaboration Slack channel](https://govdatascience.slack.com/archives/C6H22U3H9) on the cross-government data science Slack Workspace (open to all civil servants, including NHS staff)
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 
 [1]: ./introduction_to_RAP/why_RAP_is_important.md

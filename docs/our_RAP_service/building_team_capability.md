@@ -1,6 +1,6 @@
 # How to prepare my team for RAP
 
-![](../images/Rhymes_with_Orange.20110409_large.gif)
+(![Comic image of team chat](../images/team_chat_2x.png))(https://imgs.xkcd.com/comics/team_chat.png)
 
 This guide will detail what you need to consider before starting a RAP engagement.
 
@@ -14,7 +14,6 @@ This guide will detail what you need to consider before starting a RAP engagemen
 - [ ] Plan pre-RAP training
 - [ ] Consider the appropriate [level of RAP][1] to aim for, taking skills into account
 - [ ] Estimate timeline, consider pre-RAP training, and distance from BAU
-
 - [ ] Set up a project management tool (e.g. Jira, Trello etc.) for tracking work and confluence space for documenting learning, agreed decisions
 - [ ] Teams meet and ice breaker session to get to know each other. Set out the plan for the engagement, review roles and responsibilities, lessons learned from previous projects, etc.
 

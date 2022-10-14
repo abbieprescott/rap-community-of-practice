@@ -18,7 +18,9 @@ Python
 - Very comprehensive Python guidance [here](https://docs.python-guide.org/) on almost every aspect of Python
 - [Google Python style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md), which our PySpark style guide is heavily based on
 
-R - [R guidance][6] - in progress
+R 
+
+- [R guidance][6] - in progress
 
 [1]: tidy-data.md
 [2]: notebooks_versus_ide_development.md

@@ -75,6 +75,8 @@ theme:
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
+  - pymdownx.tasklist:
+      clickable_checkbox: true
   - tables
   - attr_list
   - pymdownx.emoji:
