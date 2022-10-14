@@ -92,5 +92,5 @@ code {
 
 
 .md-nav__title {
-  background-color: #f8f8f8;
+  background-color: #f8f8f8 !important;
 }
