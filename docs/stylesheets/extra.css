@@ -1,5 +1,6 @@
 :root > * {
   --md-primary-fg-color: #005eb8;
+  --md-default-bg-color: #f8f8f8;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: #f8f8f8;
@@ -90,7 +91,7 @@ code {
   }
 }
 
-
+/* 
 .md-nav__title, .md-nav {
   background-color: #f8f8f8 !important;
-}
+} */
